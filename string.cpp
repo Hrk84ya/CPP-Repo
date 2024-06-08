@@ -23,7 +23,7 @@ int main(){
     cout << fullName.at(1)<<"\n";
 
     //Clear the input buffer
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    cin.ignore();
 
     //Taking an input line
     string favCharacter;
