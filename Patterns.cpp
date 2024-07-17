@@ -91,7 +91,14 @@ void pattern8(int n){
     }
 }
 
-
+void pattern9(int n){
+    for(int i=0;i<n;i++){
+        for(char ch = 'A'; ch<='A'+i;ch++){
+            cout<<ch<<" ";
+        }
+        cout<<endl;
+    }
+}
 
 int main(){
     int n=5;
@@ -110,8 +117,9 @@ int main(){
     // pattern7(n);
     // cout<<endl;
     //pattern8(n);
-    pattern7(n);
-    pattern8(n);
+    //pattern7(n);
+    //pattern8(n);
+    pattern9(n);
 
     return 0;
 }
