@@ -165,10 +165,6 @@ After working through this repository, you will:
 - Understand concurrent programming concepts
 - Know how to write and run unit tests
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 🙏 Acknowledgments
 
 - C++ community for best practices and standards
