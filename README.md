@@ -1,43 +1,177 @@
 # C++ Code Repository
-This repository contains a collection of C++ code samples covering various topics and concepts.
 
-## Table of Contents
-- Introduction
-- Contents
-- Usage
-- Contributing
+A comprehensive collection of C++ code examples covering fundamental to advanced programming concepts, data structures, algorithms, and modern C++ features.
 
-### Introduction
-Welcome to the C++ Code Repository! This repository is a collection of C++ code samples that cover a wide range of topics, from basic syntax and control flow to more advanced concepts like object-oriented programming.
+## 📁 Repository Structure
 
-Whether you're a beginner looking to learn the basics of C++ programming or an experienced developer seeking to deepen your understanding of advanced topics, you'll find something useful in this repository.
-
-### Contents
-Here's an overview of the topics covered in this repository:
-
-- Basic syntax and control flow
-- Functions and modular programming
-- Object-oriented programming (classes, inheritance, polymorphism)
-- Data structures (arrays, linked lists, stacks, queues)
-- Input/output operations
-- And more!
-
-### Usage
-To use the code samples in this repository, simply clone the repository to your local machine:
 ```
+CPP-Repo/
+├── basics/              # Fundamental C++ concepts
+├── oop/                 # Object-oriented programming
+├── data-structures/     # Data structure implementations
+├── algorithms/          # Algorithm implementations
+├── modern-cpp/          # Modern C++ features (C++11+)
+├── stl/                 # Standard Template Library examples
+├── templates/           # Template programming
+├── exceptions/          # Exception handling
+├── multithreading/      # Concurrent programming
+├── tests/               # Unit tests and testing framework
+├── Makefile            # Build automation
+└── .gitignore          # Git ignore rules
+```
+
+## 🚀 Quick Start
+
+### Prerequisites
+- C++ compiler supporting C++17 or later (GCC, Clang, MSVC)
+- Make (optional, for using Makefile)
+
+### Clone and Build
+```bash
 git clone git@github.com:Hrk84ya/CPP-Repo.git
+cd CPP-Repo
+
+# Build all examples
+make all
+
+# Or build specific categories
+make basics
+make algorithms
+make modern-cpp
 ```
-You can then navigate to the specific file or directory containing the code sample you're interested in and compile/run it using your preferred C++ compiler.
 
-### Contributing
-Contributions to this repository are welcome! If you have a code sample or topic you'd like to contribute, please follow these steps:
+### Manual Compilation
+```bash
+g++ -std=c++17 -Wall -Wextra filename.cpp -o filename
+./filename
+```
 
-- Fork the repository
-- Create a new branch (git checkout -b feature/new-topic)
-- Make your changes
-- Commit your changes (git commit -am 'Add new topic')
-- Push to the branch (git push origin feature/new-topic)
-- Create a new Pull Request
+## 📚 Learning Path
 
-Please ensure your code adheres to the repository's coding standards and includes appropriate documentation/comments.
+### 1. **Basics** (`basics/`)
+Start here if you're new to C++:
+- Variables, data types, operators
+- Control flow (if/else, loops, switch)
+- Functions and scope
+- Input/output operations
+
+### 2. **Object-Oriented Programming** (`oop/`)
+Learn OOP concepts:
+- Classes and objects
+- Encapsulation, inheritance, polymorphism
+- Constructors and destructors
+- Access modifiers
+
+### 3. **Data Structures** (`data-structures/`)
+Implement and understand:
+- Arrays, vectors, linked lists
+- Stacks, queues, trees
+- Hash tables, heaps
+- Graph representations
+
+### 4. **Algorithms** (`algorithms/`)
+Master algorithmic thinking:
+- Sorting and searching
+- Dynamic programming
+- Graph algorithms
+- String processing
+- Backtracking
+
+### 5. **Modern C++** (`modern-cpp/`)
+Explore modern features:
+- Smart pointers
+- Lambda expressions
+- Move semantics
+- Auto keyword and range-based loops
+
+### 6. **Advanced Topics**
+- **STL** (`stl/`): Containers, algorithms, iterators
+- **Templates** (`templates/`): Generic programming
+- **Exceptions** (`exceptions/`): Error handling
+- **Multithreading** (`multithreading/`): Concurrent programming
+
+## 🧪 Testing
+
+Run the included unit tests:
+```bash
+make tests
+./tests/test_data_structures
+./tests/test_algorithms
+```
+
+## 📖 Documentation
+
+Each folder contains its own README with:
+- File descriptions
+- Key concepts explained
+- Compilation instructions
+- Learning objectives
+
+## 🛠️ Build System
+
+### Makefile Targets
+- `make all` - Build all examples
+- `make basics` - Build basic examples
+- `make oop` - Build OOP examples
+- `make algorithms` - Build algorithm examples
+- `make data-structures` - Build data structure examples
+- `make modern-cpp` - Build modern C++ examples
+- `make stl` - Build STL examples
+- `make templates` - Build template examples
+- `make exceptions` - Build exception examples
+- `make multithreading` - Build multithreading examples
+- `make tests` - Build and run tests
+- `make clean` - Remove all executables
+- `make debug FILE=filename.cpp` - Build with debug flags
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these guidelines:
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/new-algorithm`)
+3. **Follow** the existing code style and structure
+4. **Add** appropriate comments and documentation
+5. **Include** example usage in main() function
+6. **Test** your code thoroughly
+7. **Commit** your changes (`git commit -am 'Add new sorting algorithm'`)
+8. **Push** to the branch (`git push origin feature/new-algorithm`)
+9. **Create** a Pull Request
+
+### Code Standards
+- Use meaningful variable and function names
+- Include comprehensive comments
+- Follow consistent indentation (4 spaces)
+- Add example usage and expected output
+- Ensure code compiles with C++17 standard
+
+## 📊 Repository Statistics
+
+- **70+** C++ files covering various topics
+- **Organized** into logical categories
+- **Comprehensive** examples with explanations
+- **Modern C++** features and best practices
+- **Unit tests** for quality assurance
+- **Build automation** with Makefile
+
+## 🎯 Learning Objectives
+
+After working through this repository, you will:
+- Master C++ fundamentals and advanced concepts
+- Understand data structures and their implementations
+- Know common algorithms and their complexities
+- Be familiar with modern C++ features and best practices
+- Have experience with template programming
+- Understand concurrent programming concepts
+- Know how to write and run unit tests
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- C++ community for best practices and standards
+- Contributors who help improve the repository
+- Educational resources that inspire these examples
 
